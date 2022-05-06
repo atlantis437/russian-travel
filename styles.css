@@ -1,3 +1,83 @@
 .page {
-    background-color: #2A2C2F;    
+    background-color: #2A2C2F;
+    min-width: 320px;
+    max-width: 1280px; 
+    padding: 0;
+    margin: 0;
+    font-family: Inter, Arial, sans-serif;
+    color: white;
+}
+.header {    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.header__logo {    
+    position: relative;
+    background-image: url(./sprint-3-images/header-logo.svg);
+    background-size: cover;
+    background-color: white;
+    z-index: 1;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 14px;
+    margin: 0 48px 0;
+
+}
+
+.photo-grid__item {    
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "title website"    
+    "image paragraph";
+}
+
+.place__title {
+    grid-area: title;
+}
+
+.place__website {
+    grid-area: website;
+}
+
+.place__image {
+    grid-area: image;
+    width: 440px;
+    height: 440px;
+}
+
+.place__paragraph {
+    grid-area: paragraph;
+}
+
+.cover__link {
+    position: relative;
+    background-image: url(./sprint-3-images/__background.png);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    min-height: 640px;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.cover__link:hover {
+    opacity: 0.3;
 }

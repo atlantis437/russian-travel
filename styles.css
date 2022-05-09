@@ -212,7 +212,7 @@
 .lead__image {
     width: 100%;   
     margin: 0px;   
-    background-image: url(./sprint-3-images/__image.png);
+    background-image: url(./sprint-3-images/__image.jpg);
     background-size: cover;
     min-height: 580px;
 }
@@ -420,7 +420,7 @@
 
 .cover__link {
     position: relative;
-    background-image: url(./sprint-3-images/__background.png);
+    background-image: url(./sprint-3-images/__background.jpg);
     background-size: cover;
     display: flex;
     width: 100%;

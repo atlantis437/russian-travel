@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Inter';
-    src: url(./vendor/fonts/Inter/Inter-Regular.otf);
+    font-family: "Inter";
+    src: url(../../vendor/fonts/Inter/Inter-Regular.otf) format("otf");
     font-weight: normal;
   }
   
@@ -10,7 +10,7 @@
     min-width: 320px;     
     padding: 0;
     margin: 0 auto;
-    font-family: 'Inter', Arial, sans-serif;
+    font-family: "Inter", Arial, sans-serif;
     color: white;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;

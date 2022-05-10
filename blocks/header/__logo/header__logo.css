@@ -1,0 +1,15 @@
+.header__logo {
+    position: relative;
+    background-image: url(../../../sprint-3-images/header-logo.svg);
+    background-size: cover;
+    width: 176px;
+    height: 52px;    
+    z-index: 1;  
+}
+
+@media screen and (max-width: 767px) {
+    .header__logo {
+    width: 142px;
+    height: 42px;
+    }
+}

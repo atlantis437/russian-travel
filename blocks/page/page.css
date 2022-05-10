@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./vendor/fonts/Inter/Inter-Regular.otf);
+    font-weight: normal;
+  }
+  
+
+.page {
+    background-color: #2A2C2F;
+    min-width: 320px;     
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    color: white;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}

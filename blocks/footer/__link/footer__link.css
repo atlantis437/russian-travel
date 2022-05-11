@@ -1,0 +1,25 @@
+.footer__link {
+    display: flex;
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-right: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    opacity: .8;
+    transition: .8s;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__link {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 32px;
+    }
+}

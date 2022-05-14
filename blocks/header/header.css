@@ -3,9 +3,9 @@
     flex-direction: row;
     justify-content: space-between;
     width: calc(100% - 48px * 2);
-    max-width: 1184px;    
+    max-width: 1184px;
     margin: 0 auto;
-    padding: 28px 0 0 0;    
+    padding: 28px 0 0 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -17,6 +17,6 @@
 @media screen and (max-width: 767px) {
     .header {
     width: calc(100% - 16px * 2);
-    padding: 16px 0 0 0;    
+    padding: 16px 0 0 0;
     }
 }

@@ -12,13 +12,13 @@
 @media screen and (min-width: 1280px) {
     .lead__subtitle  {
     width: calc(100% - 172px * 2);
-    padding-bottom: 64px;   
+    padding-bottom: 64px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .lead__subtitle  {
-    width: calc(100% - 64px * 2);    
+    width: calc(100% - 64px * 2);
     }
 }
 

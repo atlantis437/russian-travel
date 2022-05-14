@@ -1,5 +1,5 @@
 .header__lang-link {
-    color: white;    
+    color: white;
     padding: 18px 0px 6px 18px;
     font-weight: 400;
     font-size: 24px;
@@ -21,6 +21,6 @@
     .header__lang-link {
     padding: 14px 0px 8px 18px;
     font-size: 18px;
-    line-height: 20px;    
+    line-height: 20px;
     }
 }

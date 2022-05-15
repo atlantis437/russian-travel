@@ -13,10 +13,6 @@
     transition: .8s;
 }
 
-.header__lang-link_active {
-    text-decoration-line: underline;
-}
-
 @media screen and (max-width: 767px) {
     .header__lang-link {
     padding: 14px 0px 8px 18px;
